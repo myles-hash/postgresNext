@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+.children {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.Link {
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.LinkTwo {
+    color:aliceblue;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+   font-size: 1rem;
+}

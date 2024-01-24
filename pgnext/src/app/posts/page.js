@@ -11,7 +11,7 @@ export default async function PostsPage() {
             <h1>Posts</h1>
             <ul>
                 {posts.rows.map((post) => {
-                    return (<Link href={`/posts/${post.id}`} key={post.id}>{post.title}</Link>
+                    return (<Link href={`/posts/${post.id}`} key={post.id} className="LinkTwo">{post.title}</Link>
 )})}
             </ul>
         </div>

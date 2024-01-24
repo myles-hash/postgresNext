@@ -13,8 +13,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Link href="/">HOME</Link> | <Link href="/posts">POSTS</Link>
-        {children}</body>
+        <Link className="Link" href="/">HOME</Link> | <Link className="Link"href="/posts">POSTS</Link>
+        <div className="children">
+        {children}</div></body>
     </html>
   );
 }
